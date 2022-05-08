@@ -62,8 +62,6 @@ function checkAnswer(currentLevel) {
         }
 
     } else {
-        console.log("wrong");
-
         let sound = new Audio("sounds/wrong.mp3");
         sound.play();
 
